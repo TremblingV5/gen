@@ -5,9 +5,9 @@ import (
 	"regexp"
 	"strings"
 
-	"gorm.io/gen/field"
-	"gorm.io/gen/internal/generate"
-	"gorm.io/gen/internal/model"
+	"github.com/TremblingV5/gen/field"
+	"github.com/TremblingV5/gen/internal/generate"
+	"github.com/TremblingV5/gen/internal/model"
 	"gorm.io/gorm/schema"
 )
 
