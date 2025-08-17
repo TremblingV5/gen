@@ -3,7 +3,7 @@ module gorm.io/gen/tools/gentool
 go 1.19
 
 require (
-	github.com/TremblingV5/gen v0.0.3
+	github.com/TremblingV5/gen v0.0.4
 	gopkg.in/yaml.v3 v3.0.1
 	gorm.io/driver/clickhouse v0.6.0
 	gorm.io/driver/mysql v1.5.6
@@ -48,7 +48,6 @@ require (
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/tools v0.17.0 // indirect
 	gorm.io/datatypes v1.2.4 // indirect
-	gorm.io/gen v0.3.27 // indirect
 	gorm.io/hints v1.1.0 // indirect
 	gorm.io/plugin/dbresolver v1.5.0 // indirect
 )
