@@ -42,7 +42,7 @@ Install GEN as a binary tool
   -fieldSignable
         detect integer field's unsigned type, adjust generated data type
   -mode
-        enter the genreate mode or leave it blank
+        enter the generate mode or leave it blank
 ```
 #### c
 default ""
@@ -129,7 +129,7 @@ Items to be selected:
 
 - WithDefaultQuery
 - WithoutContext
-- WithQUeryInterface
+- WithQueryInterface
 
 eg:
 
@@ -142,7 +142,7 @@ gentool -mode="WithDefaultQuery,WithoutContext"
 ```
 
 ```shell
-gentool -mode="WithDefaultQuery,WithoutContext,WithQUeryInterface"
+gentool -mode="WithDefaultQuery,WithoutContext,WithQueryInterface"
 ```
 
 ### example

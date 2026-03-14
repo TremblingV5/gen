@@ -61,9 +61,6 @@ func (c *CmdParams) revise() *CmdParams {
 	if c.OutPath == "" {
 		c.OutPath = defaultQueryPath
 	}
-	if len(c.Tables) == 0 {
-		return c
-	}
 
 	tableList := make([]string, 0, len(c.Tables))
 	for _, tableName := range c.Tables {
@@ -234,7 +231,7 @@ func parseMode(mode ...string) gen.GenerateMode {
 
 	g := gen.GenerateMode(0)
 	for i := 0; i < len(mode); i++ {
-		modeCode, err := parseModeCode(mode[0])
+		modeCode, err := parseModeCode(mode[i])
 		if err != nil {
 			log.Fatalln("failed to parse generate mode: ", err)
 		}
